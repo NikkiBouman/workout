@@ -1,0 +1,62 @@
+{
+  "leg-stretch": {
+    "name": "Leg stretch",
+    "exercises": [
+      { "ref": "leg-up-hamstring-stretch", "variant": "activatie" },
+      { "ref": "lying-glute-stretch", "variant": "activatie" },
+      { "ref": "kneeling-hip-flexor", "variant": "activatie" },
+      { "ref": "seated-single-leg-hamstring-stretch", "variant": "activatie" },
+      { "ref": "extended-leg-hip-bridge", "variant": "activatie" },
+      { "ref": "quadriceps-lying-stretch", "variant": "activatie" }
+    ]
+  },
+  "leg-activatie": {
+    "name": "Lichte leg activatie",
+    "exercises": [
+      { "ref": "ball-hamstring-curl", "variant": "activatie" },
+      { "ref": "sliding-leg", "variant": "activatie" },
+      { "ref": "one-leg-calf-raise", "variant": "activatie" }
+    ]
+  },
+  "bike-warmup": {
+    "name": "Bike warmup",
+    "exercises": [
+      { "ref": "cross-trainer", "variant": "activatie" }
+    ]
+  },
+  "leg-activatie-gym": {
+    "name": "Leg activatie (gym)",
+    "exercises": [
+      { "ref": "single-leg-press", "variant": "activatie" },
+      { "ref": "single-leg-calf-press", "variant": "activatie" },
+      { "ref": "hamstring-curl", "variant": "activatie" },
+      { "ref": "leg-extension", "variant": "activatie" },
+      { "ref": "single-leg-deadlift", "variant": "activatie" }
+    ]
+  },
+  "warmlopen": {
+    "name": "Warmlopen",
+    "exercises": [
+      { "ref": "loopband", "variant": "activatie" }
+    ]
+  },
+  "legs-uitdaging": {
+    "name": "Legs",
+    "exercises": [
+      { "ref": "single-leg-press", "variant": "uitdaging" },
+      { "ref": "single-leg-calf-press", "variant": "uitdaging" },
+      { "ref": "hamstring-curl", "variant": "uitdaging" },
+      { "ref": "leg-extension", "variant": "uitdaging" },
+      { "ref": "single-leg-deadlift", "variant": "uitdaging" }
+    ]
+  },
+  "leg-activatie-thuis": {
+    "name": "Leg activatie (thuis)",
+    "exercises": [
+      { "ref": "ball-hamstring-curl", "variant": "activatie" },
+      { "ref": "single-leg-deadlift", "variant": "activatie" },
+      { "ref": "one-leg-calf-raise", "variant": "activatie" },
+      { "ref": "nordic-hamstring-curl", "variant": "activatie" }
+    ]
+  }
+}

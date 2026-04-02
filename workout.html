@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0F172A" />
+  <title>Workout</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="loading-screen">
+    <div class="spinner"></div>
+    <span>Laden…</span>
+  </div>
+
+  <main id="workout-root">
+
+    <!-- ===== LIST MODE ===== -->
+    <div id="list-mode" class="hidden">
+
+      <header class="list-header">
+        <a class="list-header-back" href="index.html">← Terug</a>
+        <div class="list-title-area">
+          <h1 id="list-workout-name">Workout</h1>
+        </div>
+      </header>
+
+      <!-- Session banner (same workout resume) -->
+      <div id="session-banner" class="session-banner hidden" aria-live="polite"></div>
+
+      <!-- Exercise blocks -->
+      <div id="blocks-container" class="blocks-container"></div>
+
+      <!-- Play button -->
+      <div class="play-area">
+        <button class="btn btn-primary" id="btn-play" type="button">
+          ▶&nbsp; Start workout
+        </button>
+      </div>
+
+    </div><!-- /list-mode -->
+
+
+    <!-- ===== ACTIVE MODE ===== -->
+    <div id="active-mode" class="hidden" aria-label="Actieve workout">
+
+      <!-- Header -->
+      <div class="active-header">
+        <button class="btn-nav" id="btn-prev" type="button" aria-label="Vorige oefening">←</button>
+        <span class="active-block-name" id="active-block-name"></span>
+        <button class="btn-nav" id="btn-next" type="button" aria-label="Volgende oefening">→</button>
+        <button class="btn-stop" id="btn-stop" type="button">Stop</button>
+      </div>
+
+      <!-- Exercise dot nav -->
+      <div class="exercise-dot-nav" id="exercise-dot-nav"></div>
+
+      <!-- Scrollable content -->
+      <div class="active-content" id="active-content">
+
+        <!-- Exercise image -->
+        <div class="exercise-image-wrap" id="exercise-image-wrap"></div>
+
+        <!-- Exercise name -->
+        <h2 class="active-exercise-name" id="active-exercise-name"></h2>
+
+        <!-- Meta: side mode badge + params -->
+        <div class="active-meta" id="active-meta"></div>
+
+        <!-- Optional note -->
+        <div class="active-note hidden" id="active-note"></div>
+
+        <!-- Set counter -->
+        <div class="set-counter" id="set-counter"></div>
+
+        <!-- Timer area -->
+        <div class="timer-area" id="timer-area"></div>
+
+        <!-- Set done button -->
+        <button class="btn-set-done" id="btn-set-done" type="button">
+          ✓ Set klaar
+        </button>
+
+      </div><!-- /active-content -->
+
+      <!-- Next exercise footer -->
+      <div class="next-exercise-footer hidden" id="next-exercise-footer"></div>
+
+    </div><!-- /active-mode -->
+
+
+  </main><!-- /workout-root -->
+
+  <script src="app.js"></script>
+</body>
+</html>

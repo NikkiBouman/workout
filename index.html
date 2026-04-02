@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0F172A" />
+  <title>Workout App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="loading-screen">
+    <div class="spinner"></div>
+    <span>Workouts laden…</span>
+  </div>
+
+  <main id="index-root" aria-label="Workout overzicht">
+    <!-- Rendered by app.js -->
+  </main>
+
+  <!-- History overlay (shared) -->
+  <div id="history-overlay" class="hidden" role="dialog" aria-label="Oefeningen" aria-modal="true">
+    <div class="history-header">
+      <h2>Oefeningen</h2>
+      <button class="btn btn-icon" id="btn-close-history" type="button" aria-label="Sluiten">×</button>
+    </div>
+    <div class="history-content" id="history-content"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

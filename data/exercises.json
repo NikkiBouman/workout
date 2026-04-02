@@ -1,0 +1,266 @@
+{
+  "nordic-hamstring-curl": {
+    "name": "Nordic Hamstring Curl",
+    "image": "assets/images/nordic_curls_1200x1200_crop_center.webp",
+    "side_mode": "none",
+    "variants": {
+      "activatie": {
+        "sets": 2,
+        "reps": 5,
+        "seconds_per_rep": 3,
+        "params": {}
+      },
+      "uitdaging": {
+        "sets": 3,
+        "reps": 8,
+        "seconds_per_rep": 6,
+        "params": {}
+      }
+    }
+  },
+  "leg-up-hamstring-stretch": {
+    "name": "Leg Up Hamstring Stretch",
+    "image": "assets/images/leg-up-hamstring-stretch.gif",
+    "side_mode": "each_side",
+    "variants": {
+      "activatie": {
+        "sets": 1,
+        "reps": 5,
+        "params": {}
+      }
+    }
+  },
+  "lying-glute-stretch": {
+    "name": "Lying Glute Stretch",
+    "image": "assets/images/10561301-Lying-Glute-Stretch_Hips_360.gif",
+    "side_mode": "each_side",
+    "variants": {
+      "activatie": {
+        "sets": 1,
+        "reps": 1,
+        "seconds_per_rep": 20,
+        "params": {}
+      }
+    }
+  },
+  "kneeling-hip-flexor": {
+    "name": "Kneeling Hip Flexor",
+    "image": "assets/images/kneeling-lunge-stretch-muscles.gif",
+    "side_mode": "each_side",
+    "variants": {
+      "activatie": {
+        "sets": 1,
+        "reps": 1,
+        "seconds_per_rep": 20,
+        "params": {}
+      }
+    }
+  },
+  "seated-single-leg-hamstring-stretch": {
+    "name": "Seated Single Leg Hamstring Stretch",
+    "image": "assets/images/single-leg-hamstring-stretch.png",
+    "side_mode": "each_side",
+    "variants": {
+      "activatie": {
+        "sets": 1,
+        "reps": 1,
+        "seconds_per_rep": 15,
+        "params": {}
+      }
+    }
+  },
+  "extended-leg-hip-bridge": {
+    "name": "Extended Leg Hip Bridge",
+    "image": "assets/images/single-leg-glute-bridge.gif",
+    "side_mode": "each_side",
+    "variants": {
+      "activatie": {
+        "sets": 1,
+        "reps": 1,
+        "seconds_per_rep": 15,
+        "params": {}
+      }
+    }
+  },
+  "quadriceps-lying-stretch": {
+    "name": "Quadriceps Lying Stretch",
+    "image": "assets/images/Kneeling-Quad-Stretch.gif",
+    "side_mode": "each_side",
+    "variants": {
+      "activatie": {
+        "sets": 1,
+        "reps": 1,
+        "seconds_per_rep": 15,
+        "params": {}
+      }
+    }
+  },
+  "ball-hamstring-curl": {
+    "name": "Ball Hamstring Curl",
+    "image": "assets/images/oneleghamstringcurlexerciseballtrainerplusapp-ezgif.com-crop.gif",
+    "side_mode": "each_side",
+    "variants": {
+      "activatie": {
+        "sets": 1,
+        "reps": 10,
+        "params": {}
+      },
+      "uitdaging": {
+        "sets": 3,
+        "reps": 12,
+        "params": {}
+      }
+    }
+  },
+  "sliding-leg": {
+    "name": "Sliding Leg",
+    "image": "",
+    "side_mode": "each_side",
+    "variants": {
+      "activatie": {
+        "sets": 1,
+        "reps": 5,
+        "params": {}
+      },
+      "uitdaging": {
+        "sets": 3,
+        "reps": 10,
+        "params": { "weight_kg": 10 }
+      }
+    }
+  },
+  "one-leg-calf-raise": {
+    "name": "One Leg Calf Raise",
+    "image": "assets/images/Single-Leg-Standing-Calf-Raise.gif",
+    "side_mode": "each_side",
+    "variants": {
+      "activatie": {
+        "sets": 1,
+        "reps": 10,
+        "params": {}
+      },
+      "uitdaging": {
+        "sets": 3,
+        "reps": 10,
+        "params": { "weight_kg": 10 }
+      }
+    }
+  },
+  "hamstring-curl": {
+    "name": "Hamstring Curl",
+    "image": "assets/images/single-leg-hamstring-curl.jpg",
+    "side_mode": "each_side",
+    "variants": {
+      "activatie": {
+        "sets": 3,
+        "reps": 10,
+        "params": { "weight_kg": 17.5 }
+      },
+      "uitdaging": {
+        "sets": 3,
+        "reps": 12,
+        "params": { "weight_kg": 20 }
+      }
+    }
+  },
+  "leg-extension": {
+    "name": "Leg Extension",
+    "image": "assets/images/single-leg-leg-extension.gif",
+    "side_mode": "each_side",
+    "variants": {
+      "activatie": {
+        "sets": 3,
+        "reps": 10,
+        "params": { "weight_kg": 17.5 }
+      },
+      "uitdaging": {
+        "sets": 3,
+        "reps": 12,
+        "params": { "weight_kg": 20 }
+      }
+    }
+  },
+  "single-leg-press": {
+    "name": "Single Leg Press",
+    "image": "",
+    "side_mode": "each_side",
+    "variants": {
+      "activatie": {
+        "sets": 3,
+        "reps": 10,
+        "params": { "weight_kg": 30 }
+      },
+      "uitdaging": {
+        "sets": 3,
+        "reps": 10,
+        "params": { "weight_kg": 35 }
+      }
+    }
+  },
+  "single-leg-calf-press": {
+    "name": "Single Leg Calf Press",
+    "image": "assets/images/Single-Calf-Raise-on-Leg-Press-Machine.gif",
+    "side_mode": "each_side",
+    "variants": {
+      "activatie": {
+        "sets": 3,
+        "reps": 10,
+        "params": { "weight_kg": 30 }
+      },
+      "uitdaging": {
+        "sets": 3,
+        "reps": 10,
+        "params": { "weight_kg": 40 }
+      }
+    }
+  },
+  "cross-trainer": {
+    "name": "Cross Trainer",
+    "image": "",
+    "side_mode": "none",
+    "variants": {
+      "activatie": {
+        "sets": 1,
+        "reps": 1,
+        "seconds_per_rep": 300,
+        "params": {}
+      }
+    }
+  },
+  "loopband": {
+    "name": "Loopband",
+    "image": "",
+    "side_mode": "none",
+    "variants": {
+      "activatie": {
+        "sets": 1,
+        "reps": 1,
+        "seconds_per_rep": 600,
+        "params": { "speed_kmh": 10 }
+      },
+      "uitdaging": {
+        "sets": 1,
+        "reps": 1,
+        "seconds_per_rep": 1200,
+        "params": { "speed_kmh": 10 }
+      }
+    }
+  },
+  "single-leg-deadlift": {
+    "name": "Single Leg Deadlift",
+    "image": "assets/images/medicine-ball-single-leg-deadlift.gif",
+    "side_mode": "each_side",
+    "variants": {
+      "activatie": {
+        "sets": 2,
+        "reps": 10,
+        "params": { "weight_kg": 10 }
+      },
+      "uitdaging": {
+        "sets": 2,
+        "reps": 10,
+        "params": { "weight_kg": 15 }
+      }
+    }
+  }
+}
